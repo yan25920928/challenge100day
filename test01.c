@@ -4,9 +4,9 @@
 int main(){
     int i,j,k,count = 0;
     printf("\n");
-    for(int i = 1; i < 5; i++){
-        for(int j = 1; j < 5; j++){
-            for(int k = 1; k < 5; k++){
+    for(i = 1; i < 5; i++){
+        for(j = 1; j < 5; j++){
+            for(k = 1; k < 5; k++){
                 // 个，十，百，两两不相等
                 if((i!=j)&&(i!=k)&&(j!=k)){
                     // 格式化输出

@@ -7,7 +7,8 @@ int main()
     // 控制台输出语句
     printf("Hello C world!\n");
     printf("Hello visual Studio");
-    
+    int x = 5/3;
+    printf("5/3 = %d",x);   
     // 执行完毕，终止运行
     return 0;
 }
