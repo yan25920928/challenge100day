@@ -82,4 +82,20 @@ c programming language practice
         - 逻辑
         - 条件
         - 赋值
-        
+
+#####[05 判断](http://www.runoob.com/cprogramming/c-decision.html)
+- 判断结构 decision
+- 定义：指定一个或多个要评估的或测试的条件，以及条件为真时的必要执行语句，和条件为假时的可选执行语句    
+- 条件判断关键字：
+    - C中把任何非零和非空的值假定true
+    - 零或者null假定为false
+- 条件判断语句
+    - if
+    - if……else……
+    - 嵌套if
+    - switch
+    - 嵌套switch
+    - 三元运算符 `decision ? run true : run false`
+- 注意细节:
+    - switch 先计算表达式，再逐个和case后的常量比较
+    - if语句当满足条件后，会跳出判断结构，switch当满足条件后，不会跳出判断结构，而是继续向下执行，所以最好在case语句后，加上break语句来中断条件判断语句
